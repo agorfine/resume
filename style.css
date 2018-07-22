@@ -9,17 +9,23 @@ body {
 h1 {
     font-size: 50px;
 }
-h2, h3 {
+h3 {
     text-align: left;
 }
+
+h2 {text-align: center
+}
+
 ul {
     text-align: left;
     margin-left: 1%;
 
 }
+
 p {
     text-align: left;
 }
+
 .italic {
     font-style: italic;
 }
@@ -32,15 +38,21 @@ p {
     margin-top: 5%;
 }
 
-#workex {
+.info {
     border: 1px solid black;
     border-radius: 5px;
     margin: 3% 5%;
     padding: .5% 2%;
-    box-sizing: border-box;
-    float: right;
-    width: 70%;
-    padding: 50px;
+    display: flex;
+}
+
+.contact {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.conatct ul {
+    list-style: none;
 }
 
 .info {
